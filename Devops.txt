@@ -1,0 +1,32 @@
+Devops:
+Section-1: Introduction:
+Motive: Complete CI / CD Pipeline Going to Build. 
+
+Git  (Local Version control system)
+GitHub (Distributed Version control system)
+Jenkins (Continuous Integration tool) 
+Maven (Build tool)
+Ansible  (Configuration management & Deployment tool) 
+Docker  (For containerization) 
+Kubernetes ( Container management tool) 
+
+We are going to setup all these in AWS . 
+***
+We are going to Deployment in three places.  1) VM   2)Docker  3) Kubernetes
+
+---Build and Deploy in Tomcat server:
+Setup  CI/CD with GitHub, Jenkins, Maven and Tomcat 
+Refer the Screenshots further. 
+**
+CI/CD 
+Continuous Integration  
+Continuous Delivery  = Need to get Approval manually after doing Deployment in the Staging. 
+Continuous Deployment = Automatically deploying in Stage, prod . 
+
+Note: Once if the Artifacts are developed by the jenkins (with the help of Maven) , it is copied to Ansible.  It will put the code in Kubernates. 
+Also it will create the Image & push in the Docker hub.
+
+Resources to Setup Devops CI/CD Pipeline:
+
+
+
