@@ -27,6 +27,18 @@ Note: Once if the Artifacts are developed by the jenkins (with the help of Maven
 Also it will create the Image & push in the Docker hub.
 
 Resources to Setup Devops CI/CD Pipeline:
+1) AWS account 
+2) Own GitHub
+3) Mobaxterm 
+
+git bash  git --version
+
+https://github.com/ragavendra-1208/data_with_bash.git
+
+git remote add origin https://github.com/ragavendra-1208/data_with_bash.git
+
+Yes this is newly introduces
+
 
 
 
